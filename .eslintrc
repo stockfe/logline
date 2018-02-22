@@ -132,7 +132,7 @@
         "linebreak-style": 1,                     // 统一的换行符 LF
         "camelcase": 1,                           // 使用驼峰命名约定
         "keyword-spacing": 1,                     // 关键字前后要求空格如 } else {
-        "indent": [1, 4],                         // 要求缩进
+        "indent": [1, 4, { "SwitchCase": 1 }],                         // 要求缩进
         "eol-last": 1,                            // 要求文件以空行结尾
         "consistent-this": [1, "self"],           // 用什么变量名带替代this指针
         "brace-style": [0, "stroustrup"],         // 代码结构风格 [1tbs, stroustrup, allman]
